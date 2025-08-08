@@ -1,7 +1,6 @@
 body { display: grid; place-items: center; gap: 25px; grid-template-rows: auto 1fr auto; padding: 20px; margin: 0;
     font-family: "Tahoma", sans-serif;
     background: fixed url(img/background.png) right no-repeat; background-size: cover; }
-@media  only screen and ((min-device-width : 768px) and (max-device-width : 1024px)) { body { flex-direction: column; } }
 .visually-hidden { visibility: hidden; position: absolute; }
 
 header { margin-left: auto; }
