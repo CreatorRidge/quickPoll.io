@@ -1,5 +1,5 @@
 body { display: grid; place-items: center; gap: 25px; grid-template-rows: auto 1fr auto; padding: 20px; margin: 0;
-    font-family: "Tahoma", sans-serif;
+    font-family: "Tahoma", sans-serif; min-height: 95vh;
     background: fixed url(img/background.png) right no-repeat; background-size: cover; }
 .visually-hidden { visibility: hidden; position: absolute; }
 
